@@ -21,6 +21,7 @@ public class FirstServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("메인업데이트");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
